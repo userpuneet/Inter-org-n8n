@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd inter-org-tickets && npm install && npm run build",
+  "outputDirectory": "inter-org-tickets/dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
